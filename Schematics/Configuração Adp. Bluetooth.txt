@@ -1,0 +1,21 @@
+-------------------------------------------------------------
+Comandos AT:
+
+AT 
+//comando básico para verificar a resposta do módulo 
+
+AT+PSWD
+//comando para verificar a senha no dispositivo
+//Para Alterar o comando é Ex: AT+PSWD=4321
+
+AT+ROLE
+//Comando para verificar se o modulo está configurado como Master
+ou Slave '1' Master, '0' Slave Ex: AT+ROLE=1
+
+AT+CMODE=1
+//Comando para habilitar conexão a qualquer dispositivo próximo
+//Este comando tem varias variações
+
+AT+UART=9600,1,0
+//Configura a velocidade do Bauld e a forma que deva trabalhar o 
+//modulo quanto a pariedade de bits
